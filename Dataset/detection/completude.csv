@@ -1,0 +1,4 @@
+Facteur_Qualite	Niveau	Source	Metrique	Pourcentage_valeur_null	id_film	date_de_mesure
+Completude	Tuple	Source_1	le_pourcentage_attribus_null	1.0	tt9914582	2020-12-09 16:09:49
+Completude	Tuple	Source_1	le_pourcentage_attribus_null	1.0	tt7643622	2020-12-09 16:09:49
+Completude	Tuple	Source_1	le_pourcentage_attribus_null	0.875		2020-12-09 16:09:49

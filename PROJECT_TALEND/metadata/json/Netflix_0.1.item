@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_kPrMQDsrEeuGs6-UgKEUkA" name="Netflix" dataPackage="_kPrMTjsrEeuGs6-UgKEUkA" JSONFilePath="C:/Users/lylia/Desktop/Dataset/FileNetflix.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_kPrMQTsrEeuGs6-UgKEUkA" LimitBoucle="50" AbsoluteXPathQuery="$.data[*]">
+      <schemaTargets xmi:id="_kPrMQjsrEeuGs6-UgKEUkA" RelativeXPathQuery="duration" TagName="duration"/>
+      <schemaTargets xmi:id="_kPrMQzsrEeuGs6-UgKEUkA" RelativeXPathQuery="duration" TagName="duration1"/>
+      <schemaTargets xmi:id="_kPrMRDsrEeuGs6-UgKEUkA" RelativeXPathQuery="listed_in" TagName="listed_in"/>
+      <schemaTargets xmi:id="_kPrMRTsrEeuGs6-UgKEUkA" RelativeXPathQuery="cast" TagName="cast"/>
+      <schemaTargets xmi:id="_kPrMRjsrEeuGs6-UgKEUkA" RelativeXPathQuery="country" TagName="country"/>
+      <schemaTargets xmi:id="_kPrMRzsrEeuGs6-UgKEUkA" RelativeXPathQuery="date_added" TagName="date_added"/>
+      <schemaTargets xmi:id="_kPrMSDsrEeuGs6-UgKEUkA" RelativeXPathQuery="show_id" TagName="show_id"/>
+      <schemaTargets xmi:id="_kPrMSTsrEeuGs6-UgKEUkA" RelativeXPathQuery="director" TagName="director"/>
+      <schemaTargets xmi:id="_kPrMSjsrEeuGs6-UgKEUkA" RelativeXPathQuery="release_year" TagName="release_year"/>
+      <schemaTargets xmi:id="_kPrMSzsrEeuGs6-UgKEUkA" RelativeXPathQuery="rating" TagName="rating"/>
+      <schemaTargets xmi:id="_kPrMTDsrEeuGs6-UgKEUkA" RelativeXPathQuery="type" TagName="type"/>
+      <schemaTargets xmi:id="_kPrMTTsrEeuGs6-UgKEUkA" RelativeXPathQuery="title" TagName="title"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_kPrMTjsrEeuGs6-UgKEUkA" name="default" dataManager="_kPrMQDsrEeuGs6-UgKEUkA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_kPrMTzsrEeuGs6-UgKEUkA" id="_YpdXEDsrEeuGs6-UgKEUkA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kPrMUDsrEeuGs6-UgKEUkA" label="duration" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kPrMUTsrEeuGs6-UgKEUkA" label="duration1" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kPrMUjsrEeuGs6-UgKEUkA" label="listed_in" length="52" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kPrMUzsrEeuGs6-UgKEUkA" label="cast" length="215" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kPrMVDsrEeuGs6-UgKEUkA" label="country" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kPrMVTsrEeuGs6-UgKEUkA" label="date_added" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kPrMVjsrEeuGs6-UgKEUkA" label="show_id" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kPrMVzsrEeuGs6-UgKEUkA" label="director" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kPrMWDsrEeuGs6-UgKEUkA" label="release_year" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kPrMWTsrEeuGs6-UgKEUkA" label="rating" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kPrMWjsrEeuGs6-UgKEUkA" label="type" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kPrMWzsrEeuGs6-UgKEUkA" label="title" length="41" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_QtID8DQrEeuqK--Ip1xv1Q" name="acteurAgeEmail" dataPackage="_QtID8TQrEeuqK--Ip1xv1Q" Server="Localhost 127.0.0.1" FilePath="C:/Users/lylia/Desktop/Dataset/Acturs.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" TextEnclosure="&quot;\\&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_QtID8TQrEeuqK--Ip1xv1Q" name="default" dataManager="_QtID8DQrEeuqK--Ip1xv1Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_QtID8jQrEeuqK--Ip1xv1Q" id="_6BNFoDQqEeuqK--Ip1xv1Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QtID8zQrEeuqK--Ip1xv1Q" label="nconst" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QtID9DQrEeuqK--Ip1xv1Q" label="primaryName" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QtID9TQrEeuqK--Ip1xv1Q" label="Email" length="33" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QtID9jQrEeuqK--Ip1xv1Q" label="birthYear" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QtID9zQrEeuqK--Ip1xv1Q" label="deathYear" length="390" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QtID-DQrEeuqK--Ip1xv1Q" label="primaryProfession" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QtID-TQrEeuqK--Ip1xv1Q" label="knownForTitles" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QtID-jQrEeuqK--Ip1xv1Q" label="age" length="21" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

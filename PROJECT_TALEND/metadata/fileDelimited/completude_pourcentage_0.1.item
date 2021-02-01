@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_jRjXQDTBEeuLSe6raSJ0_w" name="completude_pourcentage" dataPackage="_jRjXQTTBEeuLSe6raSJ0_w" Server="Localhost 127.0.0.1" FilePath="C:/Users/lylia/Desktop/Dataset/detection/completude.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;\t&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Tabulation"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_jRjXQTTBEeuLSe6raSJ0_w" name="default" dataManager="_jRjXQDTBEeuLSe6raSJ0_w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_jRjXQjTBEeuLSe6raSJ0_w" id="_cjHJUDTBEeuLSe6raSJ0_w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jRjXQzTBEeuLSe6raSJ0_w" label="Facteur_Qualite" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jRjXRDTBEeuLSe6raSJ0_w" label="Niveau" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jRjXRTTBEeuLSe6raSJ0_w" label="Source" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jRjXRjTBEeuLSe6raSJ0_w" label="Metrique" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jRjXRzTBEeuLSe6raSJ0_w" label="Pourcentage_valeur_null" length="5" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jRjXSDTBEeuLSe6raSJ0_w" label="id_film" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jRjXSTTBEeuLSe6raSJ0_w" label="date_de_mesure" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

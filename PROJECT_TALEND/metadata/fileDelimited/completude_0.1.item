@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_kFEAEDsdEeup1OYPN0iOGg" name="completude" dataPackage="_kFEAETsdEeup1OYPN0iOGg" Server="Localhost 127.0.0.1" FilePath="C:/Users/lylia/Desktop/Dataset/solution/Solution_completude.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_kFEAETsdEeup1OYPN0iOGg" name="default" dataManager="_kFEAEDsdEeup1OYPN0iOGg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_kFEAEjsdEeup1OYPN0iOGg" properties="deleted&#xA;&#xA;true&#xA;&#xA;" id="_XkI2IDsdEeup1OYPN0iOGg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFEAEzsdEeup1OYPN0iOGg" label="IdFilm" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFEAFDsdEeup1OYPN0iOGg" label="TitreFilm" length="51" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFEAFTsdEeup1OYPN0iOGg" label="EstAdulte" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFEAFjsdEeup1OYPN0iOGg" label="Annee" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFEAFzsdEeup1OYPN0iOGg" label="RuntimeMin" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFEAGDsdEeup1OYPN0iOGg" label="Remarque" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFEAGTsdEeup1OYPN0iOGg" label="genres" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

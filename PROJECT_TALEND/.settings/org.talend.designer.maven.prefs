@@ -1,0 +1,4 @@
+EXCLUDE_DELETED_ITEMS=true
+PROJECT_GROUPID=org.example.project
+PROJECT_VERSION=7.4.1
+eclipse.preferences.version=1
